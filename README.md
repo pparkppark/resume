@@ -1,3 +1,7 @@
+# 개인정보
+- tel : 010-6852-4254
+- email : pparkppark84@gmail.com
+
 # 경력기술서
 
 ## Momnpick(맘픽)
