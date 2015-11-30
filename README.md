@@ -27,7 +27,7 @@
 - 소속회사명 : (주)모바일마루
 - 발주처 : (주)Epp Asset
 - 역할 : 7Km FitBand 안드로이드 앱 전담 개발 및 미밴드 sdk 개발
-- 사용기술 : Android Java, Bluetooth Low Energy, kakao sdk, retrofit, realm, volley, etc.
+- 사용기술 : Android Java, Bluetooth Low Energy, daum map sdk, gps, kakao sdk, retrofit, realm, volley, etc.
 - IDE/Build : Android Studio, Gradle
 - ![Screenshot](images/fitband_01.png)![Screenshot](images/fitband_02.png)![Screenshot](images/fitband_03.png)
 
@@ -37,7 +37,7 @@
 - 소속회사명 : (주)모바일마루
 - 발주처 : (주)500V
 - 역할 : 오변호사 변호사용, 일반 사용자용 앱 전담 개발
-- 사용기술 : Android JAva, kakao sdk, retrofit, realm, picasso, butterKnife, etc.
+- 사용기술 : Android Java, kakao sdk, daum map sdk, gps, retrofit, realm, picasso, butterKnife, etc.
 - IDE/Build : Android Studio, Gradle
 - ![Screenshot](images/lawservice_user01.png)![Screenshot](images/lawservice_user02.png)
 - ![Screenshot](images/lawservice_lawyer01.png)
