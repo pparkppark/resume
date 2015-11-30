@@ -1,0 +1,586 @@
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+
+<TABLE width="650" cellspacing="0" cellpadding="10" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+<TR>
+	<TD>
+	
+ 
+<!-- include virtual="/include/sub_Career_GG_Str.asp" -->
+
+<script language="JavaScript">
+<!--
+//이력서 열람 도움말
+function gg_help(Open_Flag, SMS_Num) {
+	var Open_Url, b, c
+	b = "770" ;
+	c = "580" ;
+
+	if(Open_Flag == 0 && SMS_Num == 0) //help9(+)
+		c = "704"
+	else if(Open_Flag == 1 && SMS_Num == 0) //help1(+)
+		c = "698"
+	else if(Open_Flag == 1 && SMS_Num > 0) //help2(+)
+		c = "655"
+	else if(Open_Flag == 2 && SMS_Num == 0) //help3(+)
+		c = "700"
+	else if(Open_Flag == 2 && SMS_Num > 0) //help4(+)
+		c = "655"
+	else if( (Open_Flag == 4 || Open_Flag == 5) && SMS_Num == 0) //help5(+)
+		c = "670"
+	else if( (Open_Flag == 4 || Open_Flag == 5) && SMS_Num > 0) //help7(+)
+		c = "510"
+	else if((Open_Flag == 3 || Open_Flag == 8) && SMS_Num == 0) //help6(+)
+		c = "523"
+	else if((Open_Flag == 3 || Open_Flag == 8) && SMS_Num > 0) //help8(+)
+		c = "430"
+	else
+		c = "500"
+
+	Open_Url = "ggb_help.asp?re_url=%2FText%5FUser%2FResume%2FMailForm%2FCreateMSWord%2Easp%3FisMSWord%3D1%26R%5FNo%3D7359596%26Cand%5FType%3D&Open_Flag=" + Open_Flag + "&SMS_Num=" + SMS_Num;
+
+	today = new Date()
+	var win_name = "popDialog" + today.getTime()
+	url = "/List_GG/Help_popup/" + Open_Url ;
+	OpenWin = window.open( url ,win_name,'toolbar=no,location=yes,directories=no,status=no,scrollbars=yes,menubar=no,width=' + b + ',height=' + c );
+	return;
+}
+
+function ggb_keyword_read(url) {
+	window.parent.location = url;
+}
+
+//-->
+</script>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr height="30">
+		<td height="40" align="center" bgcolor="4a567a" style="padding-top:2px; font:bold 14px gulim; letter-spacing:-1px; color:#fff;"><b>Android(with NDK)/C++/게임엔진(Cocos2dx, Unity) 개발자</b></td>
+	</tr>
+</table><table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td height=10></td>
+	</tr>
+</table>
+<table width="100%"  cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:1px solid #c7d1e3;">
+	<tr height="30">
+		<td align="center" style="padding:10px 0 10px 0; font:normal 12px gulim; letter-spacing:-1px; color:#666;">
+			<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+				<tr>
+					<td width="23%" align="center">
+						<table width="117" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:1px solid #e5e5e5;">
+							<tr>
+								<td align="center" bgcolor="ffffff" style="padding:9px 0 9px 0; border:1px solid #e5e5e5;"><img name="user_photo" src="https://fileco.jobkorea.co.kr/User_Photo/M_Photo_View.asp?FN=2013\10\31\JK_GG_pparkppark.jpg" height="130" width="100"></td>
+							</tr>
+						</table>
+					</td>
+					<td width="77%" align="left" style="padding:2px; font:bold 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">박진수(男, 1984년생) / pparkppark<br><br>
+						<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:1px solid #FFFFFF;">
+							<tr>
+								<td width="18%" align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:-1px; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">전화번호</td>
+								<td colspan="2" align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">010-6852-4254</td>
+							</tr>
+							<tr>
+								<td align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:-1px; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">휴대폰</td>
+								<td colspan="2" align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">010-6852-4254 <span style="padding:2px; font:normal 11px gulim; letter-spacing:0; color:#ff6600;">(통화가능 시간 : 언제나 가능)</span></td>								
+							</tr>
+							<tr>
+								<td align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:-1px; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">e-메일</td>
+								<td colspan="2" align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;"><a href="mailto:pparkppark84@gmail.com">pparkppark84@gmail.com</a></td>
+							</tr>
+							<tr>
+								<td align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:-1px; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">홈페이지</td>
+								<td colspan="2" align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">미입력</td>
+							</tr>
+							<tr>
+								<td align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:-1px; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">주소</td>
+								<td colspan="2" align="left" style="padding:2px; font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">서울 은평구 대조동</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse" bordercolor="#c7d1e3">
+	<tr >
+		<td height="30" width="15%" bgcolor="#f2f5f9" align="center" style="padding-top:2px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">희망연봉</td>
+		<td width="20%" align="left" style="padding:2px 0 0 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">면접후 결정</td> 
+		<td width="15%" align="center" bgcolor="#f2f5f9" style="padding:2px 0 0 10px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">고용형태</td>
+		<td width="50%" align="left" style="padding:2px 0 0 10px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">정규직, 계약직</td>
+	</tr>
+	<tr>
+		<td  height="30" bgcolor="#f2f5f9" align="center" style="padding-top:2px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">희망근무지</td>
+		<td colspan="3" align="left" style="padding:2px 0 0 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">서울</td>
+	</tr>
+	<tr>
+		<td height="50" bgcolor="#f2f5f9" align="center" style="padding-top:2px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">지원분야</td>
+		<td colspan="3" align="left" style="padding: 0 0 0 10px;">
+		<table width="100%" border="0"  cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+          <tr>
+            <td width="10%" align="left" style="padding:2px 0 2px 0; font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF; ">[업직종]</td>
+            <td width="90%" align="left" style="padding:2px 0 2px 0; font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">응용프로그래머,소프트웨어·솔루션·ASP,게임·애니메이션,모바일·무선 </td>
+          </tr>
+          <tr>
+            <td align="left" style="padding:2px 0 2px 0; font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">[키워드]</td>
+            <td align="left" style="padding:2px 0 2px 0; font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">C, Java, C++, 응용프로그래머, Delphi, 아이폰, 안드로이드, 소프트웨어개발, 모바일앱개발</td>
+          </tr>          
+        </table>
+		</td>
+	</tr>
+	
+	<!--tr>
+		<td  height="30" bgcolor="#f2f5f9" align="center" style="padding-top:2px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">포트폴리오</td>
+		<td colspan="3" align="left" style="padding:2px 0 0 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"></td>
+	</tr-->
+</table>	
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td height=10></td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td width="11%" align="left" valign="bottom" style="font:bold 12px 굴림; color: #454d56; padding:10px 0 0 10px; line-height:18px; letter-spacing:-1px;border-collapse:collapse;border:0px solid #FFFFFF;">학력사항</td>
+		<td width="89%" valign="bottom" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+			<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+				<tr>
+					<td align="left" valign="bottom" style="padding:11px 0 0 10px; font:normal 11px gulim; letter-spacing:0; line-height:18px;"> | <font style="color:#ff6600;">대학교(4년)</font> 졸업</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="4" colspan="2"></td>
+	</tr>
+	<tr>
+		<td height="1" colspan="2" style="background-color:#a4b4cd;"></td>
+	</tr>
+</table>
+	<table width="100%" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse" bordercolor="#c7d1e3">
+		<tr>
+			<td width="17%" height="30" align="center" bgcolor="#f2f5f9" style="padding-top:2px; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">최종학력</td>
+			<td width="23%" align="center" bgcolor="#f2f5f9" style="padding:2px 0 0 0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">학교명</td>
+			<td width="8%" align="center" bgcolor="#f2f5f9" style="padding:2px 0 0 0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">소재지</td>
+			<td width="39%" align="center" bgcolor="#f2f5f9" style="padding:2px 0 0 0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">전공</td>
+			<td width="8%" align="center" bgcolor="#f2f5f9" style="padding:2px 0 0 0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">학점</td>
+		</tr>
+	<tr>
+		<td align="left" valign="top" style="padding:5px 0 5px 2px; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">2003년 졸업 </td>
+		<td align="left" valign="top" style="padding:5px 0 5px 2px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"><strong>성의고등학교</strong></td>
+		<td align="center" valign="top" style="padding:5px 0 5px 0; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">경북</td>
+		<td align="left" valign="top" style="padding:5px 0 5px 2px;  font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"></td>
+		<td align="center" valign="top" style="padding:5px 0 5px 0;  font:normal 12px gulim; letter-spacing:0; color:#264798; border:1px solid #c7d1e3;">-</td>
+	</tr>
+	<tr>
+		<td align="left" valign="top" style="padding:5px 0 5px 2px; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">2003년 입학 ~ 2009년 02월 졸업</td>
+		<td align="left" valign="top" style="padding:5px 0 5px 2px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"><strong>충북대</strong>
+		</td>
+		<td align="center" valign="top" style="padding:5px 0 5px 0; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">충북</td>
+		<td align="left" valign="top" style="padding:5px 0 5px 2px;  font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">공학 > 컴퓨터공학과학과<br></td>
+		<td align="center" valign="top" style="padding:5px 0 5px 0;  font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">3/4.5</td>
+	</tr>
+	</table>
+
+
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td height=10></td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td width="11%" align="left" valign="bottom" style="font:bold 12px 굴림; color: #454d56; padding:10px 0 0 10px; line-height:18px; letter-spacing:-1px;border-collapse:collapse;border:0px solid #FFFFFF;">경력사항</td>		
+		<td width="89%" valign="bottom" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+			<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+				<tr>
+					<td align="left" valign="bottom"  style="padding:11px 0 0 10px; font:normal 11px gulim; letter-spacing:0; color:#ff6600; line-height:18px;"> | 총 경력 6년  7개월 </td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="4" colspan="2"></td>
+	</tr>
+	<tr>
+		<td height="1" colspan="2" style="background-color:#a4b4cd;"></td>
+	</tr>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse" bordercolor="#c7d1e3">
+	<tr>
+		<td width="15%" height="30" align="center" bgcolor="#f2f5f9" style="padding-top:2px; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">근무기간</td>
+		<td width="40%" align="center" bgcolor="#f2f5f9" style="padding:2px 0 0 0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">회사명</td>
+		<td width="20%" align="center" bgcolor="#f2f5f9" style="padding:2px 0 0 0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">부서명/직급/직책</td>
+		<td width="25%" align="center" bgcolor="#f2f5f9" style="padding:2px 0 0 0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">담당업무</td>
+	</tr>
+		 <tr>
+		<td rowspan = "1" align="left" valign="top" style="padding:5px 5px 5px 10px; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">2014년 12월 ~ <br>2015년 11월<br><span class="style2">(1년)</td>
+		<td align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"><strong><strong>모바일마루</strong></strong><br>
+			<table width="100%" style="border-collapse:collapse;border:0px solid #FFFFFF;" cellspacing="0" cellpadding="0" style="margin:8px 0 0 0;">
+				<tr>
+					<td width="13%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;" ><img src="http://file1.jobkorea.co.kr/mailing/img_resume_b.gif" alt="업종" align="middle"></td>
+					<td width="87%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">소프트웨어·솔루션·ASP</td>
+				</tr>
+				<tr>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;"><img src="http://file1.jobkorea.co.kr/mailing/img_resume_w.gif" alt="직종" align="middle"></td>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">응용프로그래머</td>
+				</tr>
+			</table>
+		</td>
+		<td align="center" valign="middle" style="padding:5px 0 5px 0; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">개발팀<br>대리(주임연구원)<br>팀원</td>
+		<td align="left" valign="middle" style="padding:5px 0 5px 2px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">안드로이드,Java</td>
+	 </tr>
+	 <tr>
+		<td colspan="4" align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">
+<br><br>[수행 프로젝트]<br>1	유아동 쇼핑 어그리게이션 서비스 맘픽 안드로이드 버전 개발<br>
+2	모바일 웹 몰 래핑 서비스 개발<br>
+3	스마트 밴드 서비스 개발 - 대상 단말 : 샤오미 미밴드<br>
+4	변호사 출장 서비스 개발 - 카카오택시의 모바일 버전<br>[퇴사사유] 경영악화		</td>
+	 </tr>
+	 <tr>
+		<td rowspan = "1" align="left" valign="top" style="padding:5px 5px 5px 10px; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">2014년 03월 ~ <br>2014년 11월<br><span class="style2">(9개월)</td>
+		<td align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"><strong><strong>스마트앤미디어</strong></strong><br>
+			<table width="100%" style="border-collapse:collapse;border:0px solid #FFFFFF;" cellspacing="0" cellpadding="0" style="margin:8px 0 0 0;">
+				<tr>
+					<td width="13%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;" ><img src="http://file1.jobkorea.co.kr/mailing/img_resume_b.gif" alt="업종" align="middle"></td>
+					<td width="87%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">소프트웨어·솔루션·ASP</td>
+				</tr>
+				<tr>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;"><img src="http://file1.jobkorea.co.kr/mailing/img_resume_w.gif" alt="직종" align="middle"></td>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">응용프로그래머</td>
+				</tr>
+			</table>
+		</td>
+		<td align="center" valign="middle" style="padding:5px 0 5px 0; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">개발팀<br>대리(주임연구원)<br>매니저</td>
+		<td align="left" valign="middle" style="padding:5px 0 5px 2px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">아이폰,안드로이드,C++</td>
+	 </tr>
+	 <tr>
+		<td colspan="4" align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">
+<br><br>[수행 프로젝트]<br>유아 색칠 프로그램 제작<br>
+1. 액션페인팅<br>
+2. 액션페인팅 보보<br>
+<br>
+사내 svn 서버 관리<br>
+<br>
+신규 프로젝트 진행 중 퇴사<br>[퇴사사유] 경영악화		</td>
+	 </tr>
+	 <tr>
+		<td rowspan = "1" align="left" valign="top" style="padding:5px 5px 5px 10px; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">2013년 02월 ~ <br>2013년 09월<br><span class="style2">(8개월)</td>
+		<td align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"><strong><strong>하렉스</strong></strong><br>
+			<table width="100%" style="border-collapse:collapse;border:0px solid #FFFFFF;" cellspacing="0" cellpadding="0" style="margin:8px 0 0 0;">
+				<tr>
+					<td width="13%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;" ><img src="http://file1.jobkorea.co.kr/mailing/img_resume_b.gif" alt="업종" align="middle"></td>
+					<td width="87%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">소프트웨어·솔루션·ASP</td>
+				</tr>
+				<tr>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;"><img src="http://file1.jobkorea.co.kr/mailing/img_resume_w.gif" alt="직종" align="middle"></td>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">응용프로그래머</td>
+				</tr>
+			</table>
+		</td>
+		<td align="center" valign="middle" style="padding:5px 0 5px 0; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">서비스본부<br>주임/계장(연구원)<br>매니저</td>
+		<td align="left" valign="middle" style="padding:5px 0 5px 2px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">Linux,C++,Delphi,안드로이드,아이폰</td>
+	 </tr>
+	 <tr>
+		<td colspan="4" align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">
+<br><br>[수행 프로젝트]<br>1	KT 전자지갑 모카 프로젝트 고도화 작업 수행<br>
+2	모카페이 안드로이드/아이폰 개발 - 데이터 유효성 검사, 보안솔루션 적용, UI 변경 등<br>
+3	모카페이 복합결제 서버 관리 - 리눅스 기반 자바 서버 ( 영동 IDC )<br>
+4	POS 어플리케이션 개발 - 업체 전달용 DLL 개발, 데모 시연용 POS 개발<br>[퇴사사유] 경영악화		</td>
+	 </tr>
+	 <tr>
+		<td rowspan = "1" align="left" valign="top" style="padding:5px 5px 5px 10px; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">2010년 11월 ~ <br>2013년 02월<br><span class="style2">(2년 4개월)</td>
+		<td align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"><strong><strong>맵퍼스</strong></strong><br>
+			<table width="100%" style="border-collapse:collapse;border:0px solid #FFFFFF;" cellspacing="0" cellpadding="0" style="margin:8px 0 0 0;">
+				<tr>
+					<td width="13%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;" ><img src="http://file1.jobkorea.co.kr/mailing/img_resume_b.gif" alt="업종" align="middle"></td>
+					<td width="87%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">소프트웨어·솔루션·ASP</td>
+				</tr>
+				<tr>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;"><img src="http://file1.jobkorea.co.kr/mailing/img_resume_w.gif" alt="직종" align="middle"></td>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">응용프로그래머</td>
+				</tr>
+			</table>
+		</td>
+		<td align="center" valign="middle" style="padding:5px 0 5px 0; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">개발2본부<br>대리(주임연구원)<br>팀원</td>
+		<td align="left" valign="middle" style="padding:5px 0 5px 2px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">안드로이드,Java,C++,응용프로그래머</td>
+	 </tr>
+	 <tr>
+		<td colspan="4" align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">
+<br><br>[수행 프로젝트]<br>AtlanSmart Android<br>
+ AtlanSmart UI 전반 및 기능, UIEngine 담당, 상태머신 관리 <br>
+1	UIEngine 개선(필요 요구사항 추가 구현, 간소화)<br>
+2	상태머신 정의<br>
+3	검색시나리오 구현<br>
+3.1	통합, 주변 검색 구현<br>
+4	소셜시나리오 구현<br>
+4.1	체크인, 리포팅 구현<br>
+5	ndk 사용 프로젝트<br>
+<br>
+Atlan3D Android<br>
+ Atlan3D UI 및 서버 탐색 기능, UIEngine 담당<br>
+1	UIEngine 개발<br>
+1.1	WinCe 스크립트 포팅<br>
+1.2	이미지 압축, 해제 알고리즘 구현<br>
+2	검색 시나리오 구현<br>
+2.1	통합, 명칭, 서버, 주변, 종별, 테마검색 등 구현<br>
+3	경로탐색 시나리오 구현<br>
+3.1	로컬탐색, 서버탐색 구현<br>
+4	환경설정 시나리오 구현<br>
+5	ndk 사용 프로젝트<br>
+6	opengl 사용프로젝트<br>
+7	자부연 프로젝트 진행<br>[퇴사사유] 개인사정		</td>
+	 </tr>
+	 <tr>
+		<td rowspan = "1" align="left" valign="top" style="padding:5px 5px 5px 10px; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">2008년 12월 ~ <br>2010년 09월<br><span class="style2">(1년 10개월)</td>
+		<td align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"><strong><strong>에프데스크</strong></strong><br>
+			<table width="100%" style="border-collapse:collapse;border:0px solid #FFFFFF;" cellspacing="0" cellpadding="0" style="margin:8px 0 0 0;">
+				<tr>
+					<td width="13%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;" ><img src="http://file1.jobkorea.co.kr/mailing/img_resume_b.gif" alt="업종" align="middle"></td>
+					<td width="87%" align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">소프트웨어·솔루션·ASP</td>
+				</tr>
+				<tr>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;"><img src="http://file1.jobkorea.co.kr/mailing/img_resume_w.gif" alt="직종" align="middle"></td>
+					<td align="left" style="font:normal 12px gulim; letter-spacing:0; color:#666;border-collapse:collapse;border:0px solid #FFFFFF;">응용프로그래머</td>
+				</tr>
+			</table>
+		</td>
+		<td align="center" valign="middle" style="padding:5px 0 5px 0; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">개발팀<br>사원(연구원)<br></td>
+		<td align="left" valign="middle" style="padding:5px 0 5px 2px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">솔루션 유지보수</td>
+	 </tr>
+	 <tr>
+		<td colspan="4" align="left" valign="top" style="padding:5px 0 5px 10px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;">
+<br><br>[수행 프로젝트]<br>e-book 제작 어플리케이션<br>
+ e-book 제작 어플리케이션 전담<br>
+1	Pdf 2 Flash 변환 툴 개발(C++빌더 사용 프로젝트)<br>
+1.1	경기도 교육청 납품<br>
+1.2	각종 출판사 납품<br>
+1.3	해외 e-book 제작 사이트 납품<br>
+1.4	국방부, 우체국 외 기타 업체 납품<br>
+2	Office to Flash 변환 툴 개발(C++빌더 사용 프로젝트, ActiveX 이용)<br>
+1.1	삼성 SDS 교육부 납품 <br>
+3	문서 보안 사이트 납품(델파이 사용)<br>
+1.1	Fasoo.com 납품<br>
+4	Flash 편집 툴 개발<br>
+5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;기타 유틸리티 개발<br>
+5.1	전용 뷰어 개발(Flash와 통신)<br>
+5.2	CD 설치 프로그램 개발(출판사 협업)<br>
+5.3	USB 용 무설치 프로그램 개발(경기도 교육청 협업)<br>
+5.4	기타 유틸리티 전반 개발<br>[퇴사사유] 개인사정		</td>
+	 </tr>
+	<tr>
+		<td height="30" colspan="4" align="left" bgcolor="f9f9f9" style="padding-left:10px; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">기타 경력사항 </td>
+	</tr>
+	<tr>
+		<td colspan="4" align="left" valign="top" style="padding:5px 5px 5px 10px; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">https://github.com/pparkppark/resume<br>
+<br>
+<br>
+cocos2d-x, unity<br>
+https://www.dropbox.com/sh/c4ep2sinalfqvmq/AAB50CmkHRTYIkYMmWOI3Ba0a?dl=0</td>
+	</tr>
+
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td height=10></td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td align="left" valign="bottom" style="font:bold 12px 굴림; color: #454d56; padding:10px 0 0 10px; line-height:18px; letter-spacing:-1px;border-collapse:collapse;border:0px solid #FFFFFF;">취업우대 사항</td>
+		<td width="69%" valign="bottom" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+			<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+				<tr>
+					<td align="left" style="padding:10px 0 0 10px; font:normal 11px gulim; letter-spacing:0; color:#ff6600; line-height:18px;">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="4" colspan="2"></td>
+	</tr>
+	<tr>
+		<td height="1" colspan="2" style="background-color:#a4b4cd;"></td>
+	</tr>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse" bordercolor="#c7d1e3">
+	<tr >
+		<td height="30" width="15%" bgcolor="#f2f5f9" align="center" style="padding-top:2px; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">보훈대상여부</td>
+		<td width="16%" align="center" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">비대상</td>
+		<td width="18%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">취업보호대상 여부 </td>
+		<td width="15%" align="center" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">- </td>
+		<td width="18%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">고용지원금대상 여부</td>
+		<td width="18%" align="center" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">-</td>
+	</tr>
+	<tr >
+		<td height="30" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; color:#768090; border:1px solid #c7d1e3;">병역사항</td>
+		<td colspan="3" align="left" style="padding-left:5px; font:normal 12px gulim; letter-spacing:0; color:#666; border:1px solid #c7d1e3;"> <strong>[군필]  </strong>2005년 1월 ~ 2007년 1월  육군 병장 제대</td>
+		<td width="109" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">장애 여부</td>
+		<td width="110" align="center" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;">비장애  </td>
+	</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td height=10></td>
+	</tr>
+</table>  
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td align="left" valign="bottom" style="font:bold 12px 굴림; color: #454d56; padding:10px 0 0 10px; line-height:18px; letter-spacing:-1px;border-collapse:collapse;border:0px solid #FFFFFF;">주요사회 활동</td>
+		<td width="69%" valign="bottom" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+			<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+				<tr>
+					<td align="left" style="padding:10px 0 0 10px; font:normal 11px gulim; letter-spacing:0; color:#ff6600; line-height:18px;">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="4" colspan="2"></td>
+	</tr>
+	<tr>
+		<td height="1" colspan="2" style="background-color:#a4b4cd;"></td>
+	</tr>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse" bordercolor="#c7d1e3">
+	<tr >
+		<td height="30" width="33%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">활동기간</td>
+		<td width="12%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">활동구분</td>
+		<td width="24%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">기관/장소</td>
+		<td width="31%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">활동내용</td>
+	</tr>
+		<tr>
+		<td height="30" align="center" style="padding:0; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">2003년 03월 ~ 2007년 06월 </td>
+		<td align="center" style="padding:0; font:normal 12px gulim; color:#666; letter-spacing:-1px; border:1px solid #c7d1e3; ">동아리</td>
+		<td align="left" style="padding:5px 0 5px 2px; font:normal 12px gulim; color:#666; letter-spacing:-1px; border:1px solid #c7d1e3; ">충북대학교 만화동아리 클로버</td>
+		<td align="left" style="padding:5px 0 5px 2px; font:normal 12px gulim; color:#666; letter-spacing:-1px; border:1px solid #c7d1e3; ">5기 기장, 2004년 동아리 부회장.
+각종행사 ( 상영회, 전시회, 축제 등 ) 기획 및 진행</td>
+	</tr>
+
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td height=10></td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td align="left" valign="bottom" style="font:bold 12px 굴림; color: #454d56; padding:10px 0 0 10px; line-height:18px; letter-spacing:-1px;border-collapse:collapse;border:0px solid #FFFFFF;">자격증</td>
+		<td width="69%" valign="bottom" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+			<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+				<tr>
+					<td align="left" style="padding:10px 0 0 10px; font:normal 11px gulim; letter-spacing:0; color:#ff6600; line-height:18px;">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="4" colspan="2"></td>
+	</tr>
+	<tr>
+		<td height="1" colspan="2" style="background-color:#a4b4cd;"></td>
+	</tr>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse" bordercolor="#c7d1e3">
+	<tr >
+		<td height="30" width="25%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">취득일</td>
+		<td width="30%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">자격증명</td>
+		<td width="24%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">발행처</td>
+	</tr>
+	 <tr>
+	 <td height="30" align="center" style="padding:0; font:normal 12px gulim; color:#666; border:1px solid #c7d1e3;">2003년 08월 22일</td>
+	 <td align="center" style="padding:0; font:normal 12px gulim; color:#666; letter-spacing:-1px;  border:1px solid #c7d1e3;">자동차운전면허</td>
+	 <td align="center" style="padding:0; font:normal 12px gulim; color:#666; letter-spacing:-1px; border:1px solid #c7d1e3; ">경북지방경찰청</td>
+	</tr>
+	
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td height=10></td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td align="left" valign="bottom" style="font:bold 12px 굴림; color: #454d56; padding:10px 0 0 10px; line-height:18px; letter-spacing:-1px;border-collapse:collapse;border:0px solid #FFFFFF;">OA능력 및 보유기술</td>
+		<td width="69%" valign="bottom" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+			<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+				<tr>
+					<td align="left" style="padding:10px 0 0 10px; font:normal 11px gulim; letter-spacing:0; color:#ff6600; line-height:18px;">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="4" colspan="2"></td>
+	</tr>
+	<tr>
+		<td height="1" colspan="2" style="background-color:#a4b4cd;"></td>
+	</tr>
+</table>
+<table width="100%" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse" bordercolor="#c7d1e3">
+	<tr >
+		<td height="30" width="12%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">한글/MS워드</td>
+		<td width="38%" align="left" style="padding:0 0 0 10px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;"><img src="http://file1.jobkorea.co.kr/mailing/icon_resume_M.gif" alt="중" align="absmiddle"> 표/도구 활용 가능</td>
+		<td width="10%" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; letter-spacing:-1px; color:#768090; border:1px solid #c7d1e3;">엑셀</td>
+		<td width="40%" align="left" style="padding:0 0 0 10px; font:normal 12px gulim; letter-spacing:-1px; color:#666; border:1px solid #c7d1e3;"><img src="http://file1.jobkorea.co.kr/mailing/icon_resume_M.gif" alt="중" align="absmiddle"> 일반함수/수식 가능</td>
+	</tr>
+	<tr>
+		<td height="30" align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; color:#768090; border:1px solid #c7d1e3;">파워포인트</td>
+		<td align="left" style="padding:0 0 0 10px; font:normal 12px gulim; color:#666; letter-spacing:-1px;  border:1px solid #c7d1e3;"><img src="http://file1.jobkorea.co.kr/mailing/icon_resume_M.gif" alt="중" align="absmiddle"> 차트/그래픽 가능</td>
+		<td align="center" bgcolor="#f2f5f9" style="padding:0; font:normal 12px gulim; color:#768090; letter-spacing:-1px; border:1px solid #c7d1e3; ">인터넷</td>
+		<td align="left" style="padding:0 0 0 10px; font:normal 12px gulim; color:#666; letter-spacing:-1px; border:1px solid #c7d1e3; "><img src="http://file1.jobkorea.co.kr/mailing/icon_resume_T.gif" alt="상" align="absmiddle"> 해외 정보수집/정보활용 능숙</td>
+		
+	</tr>
+	
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td height=10></td>
+	</tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td align="left" valign="bottom" style="font:bold 12px 굴림; color: #454d56; padding:10px 0 0 10px; line-height:18px; letter-spacing:-1px;border-collapse:collapse;border:0px solid #FFFFFF;">자기소개서</td>
+		<td width="69%" valign="bottom" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+			<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+				<tr>
+					<td align="left" style="padding:10px 0 0 10px; font:normal 11px gulim; letter-spacing:0; color:#ff6600; line-height:18px;">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="4" colspan="2"></td>
+	</tr>
+	<tr>
+		<td height="1" colspan="2" style="background-color:#a4b4cd;"></td>
+	</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border:1px solid #c7d1e3;">
+	
+	<tr>
+		<td align="left" style="padding:10px; font:normal 12px gulim; color:#666;">다양한 플랫폼 상에서 여러가지 작업을 경험하였기 때문에 새로운 환경에서도 적응이 빠르다고 자부하며, UI 부문을 전담한 경우가 많기 때문에 해당 분야에 대한 전문성을 가지고 있다고 생각합니다. 또한 팀단위 프로젝트 및 1인 개발 모두 경험하였고, 적지만 SI업무 또한 해봤기 때문에 프로젝트에 대해 유연한 대처를 할 수 있습니다. 그리고 사내 팀 세미나 및 개인적인 스터디로&nbsp;&nbsp;정체될 수 있는 위험 요소를 줄였습니다. 신기술 동향에도 관심이 많아 GDG 코리아 세션, Naver 개발자 컨퍼런스 등에 참가하여 새로운 기술을 익히고 있습니다.<br>
+<br>
+최근에는 내부 프로젝트를 주로 하였지만, 다른 업체와의 협업 또한 경험이 있습니다. 대인관계의 친화력이 장점이라고 생각하며, 이것을 바탕으로 프로젝트를 안정적으로 진행하여왔습니다. 부수적인 효과로 프로젝트 기간이 단축되는 경우가 꽤 있었습니다. 그리고 한번 맡은 일에 대해서는 다른 팀원과 프로젝트에 피해가 가지 않도록 항상 성실하게 임해왔습니다. 또한 보기 좋은 코드, 리팩토링 하기 좋아하는 코드를 선호하여 프로젝트 구조나 기획 변경시 개발 비용을 줄일 수 있도록 개발하고 있습니다.<br>
+<br>
+귀 사에 입사하게 된다면 저의 장점인 빠른 환경 적응과, 대인관계의 친화력을 바탕으로 빠르게 프로젝트의 핵심인력이 되고 싶습니다. 주어진 업무에 최선을 다하여 프로젝트를 성공적으로 진행 할 수 있도록 노력하고, 업무 외적으로도 친화력을 발휘해 밝은 회사 분위기를 주도하겠습니다.<br>
+<br>
+<br>
+p.s. si 업무는 지양하고 있습니다.<br>
+스타트업의 경우 대표가 개발자이신 회사만 지원하고 있습니다.</td>
+	</tr>
+</table><table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+	<tr>
+		<td align="center" style="padding:10px; font:bold 14px doum; color:#666;"><br>
+		위의 모든 기재사항은 사실과 다름없음을 확인합니다.
+			<table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:0px solid #FFFFFF;">
+				<tr>
+					<td align="center" style="padding:10px; font:normal 12px gulim; color:#666;"> 작성자 : 박진수 </td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>		
+	</TD>
+</TR>
+</TABLE>
+
