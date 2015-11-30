@@ -7,7 +7,7 @@
 - 발주처 : (주)모바일마루
 - 역할 : 맘픽 안드로이드 앱 전담 개발 및 서버 지원
 - 사용기술 : Android Java, butterKnife, AUIL, volley, crashlytics, etc.
-- IDE/Build : Android Studio, Eclipse(Lagacy)
+- IDE/Build : Android Studio, Gradle, Eclipse(Lagacy)
 - [PlayStore](https://play.google.com/store/apps/details?id=com.momnpick)
 - [Web](http://www.momnpick.com)
 
@@ -18,7 +18,7 @@
 - 발주처 : (주)모바일마루
 - 역할 : 모바일 래퍼 안드로이드 앱 전담 개발 및 어드민 센터 기획
 - 사용기술 : Android Java, butterKnife, picasso, realm, retrofit, etc.
-- IDE/Build : Android Studio
+- IDE/Build : Android Studio, Gradle
 - ![Screenshot](images/mobilewrapper.png)
 
 ## 7Km FitBand
@@ -28,7 +28,7 @@
 - 발주처 : (주)Epp Asset
 - 역할 : 7Km FitBand 안드로이드 앱 전담 개발 및 미밴드 sdk 개발
 - 사용기술 : Android Java, Bluetooth Low Energy, kakao sdk, retrofit, realm, volley, etc.
-- IDE/Build : Android Studio
+- IDE/Build : Android Studio, Gradle
 - ![Screenshot](images/fitband_01.png)![Screenshot](images/fitband_02.png)![Screenshot](images/fitband_03.png)
 
 ## 오변호사
@@ -38,7 +38,7 @@
 - 발주처 : (주)500V
 - 역할 : 오변호사 변호사용, 일반 사용자용 앱 전담 개발
 - 사용기술 : Android JAva, kakao sdk, retrofit, realm, picasso, butterKnife, etc.
-- IDE/Build : Android Studio
+- IDE/Build : Android Studio, Gradle
 - ![Screenshot](images/lawservice_user01.png)![Screenshot](images/lawservice_user02.png)
 - ![Screenshot](images/lawservice_lawyer01.png)
 
