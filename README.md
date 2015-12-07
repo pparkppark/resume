@@ -36,6 +36,16 @@
 - IDE/Build : Android Studio, Gradle
 - ![Screenshot](images/fitband_01.png)![Screenshot](images/fitband_02.png)![Screenshot](images/fitband_03.png)
 
+## 모바일래퍼
+기존 모바일 소호몰을 안드로이드 앱으로 래핑하여 푸시 서비스 및 배너 서비스 제공하는 앱
+- 기간 : 2015/9
+- 소속회사명 : (주)모바일마루
+- 발주처 : (주)모바일마루
+- 역할 : 모바일 래퍼 안드로이드 앱 전담 개발 및 어드민 센터 기획
+- 사용기술 : Android Java, butterKnife, picasso, realm, retrofit, etc.
+- IDE/Build : Android Studio
+- ![Screenshot](images/mobilewrapper.png)
+
 ## ActionPainting (액션페인팅)
 유아 교육용 색칠 프로그램
 - 기간 : 2014/3~2014/11
