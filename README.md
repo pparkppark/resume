@@ -15,26 +15,6 @@
 - [PlayStore](https://play.google.com/store/apps/details?id=com.momnpick)
 - [Web](http://www.momnpick.com)
 
-## 모바일래퍼
-기존 모바일 소호몰을 안드로이드 앱으로 래핑하여 푸시 서비스 및 배너 서비스 제공하는 앱
-- 기간 : 2015/9
-- 소속회사명 : (주)모바일마루
-- 발주처 : (주)모바일마루
-- 역할 : 모바일 래퍼 안드로이드 앱 전담 개발 및 어드민 센터 기획
-- 사용기술 : Android Java, butterKnife, picasso, realm, retrofit, etc.
-- IDE/Build : Android Studio, Gradle
-- ![Screenshot](images/mobilewrapper.png)
-
-## 7Km FitBand
-스마트밴드를 이용하여 금융상품 가입자에게 리워드를 제공하는 서비스
-- 기간 2015/9~2015/10
-- 소속회사명 : (주)모바일마루
-- 발주처 : (주)Epp Asset
-- 역할 : 7Km FitBand 안드로이드 앱 전담 개발 및 미밴드 sdk 개발
-- 사용기술 : Android Java, Bluetooth Low Energy, daum map sdk, gps, kakao sdk, retrofit, realm, volley, etc.
-- IDE/Build : Android Studio, Gradle
-- ![Screenshot](images/fitband_01.png)![Screenshot](images/fitband_02.png)![Screenshot](images/fitband_03.png)
-
 ## 오변호사
 긴급상황의 경우 변호사를 호출하거나 상담예약을 할 수 있는 서비스
 - 기간 : 2015/10~2015/11
@@ -46,6 +26,16 @@
 - ![Screenshot](images/lawservice_user01.png)![Screenshot](images/lawservice_user02.png)
 - ![Screenshot](images/lawservice_lawyer01.png)
 
+## 7Km FitBand
+스마트밴드를 이용하여 금융상품 가입자에게 리워드를 제공하는 서비스
+- 기간 2015/9~2015/10
+- 소속회사명 : (주)모바일마루
+- 발주처 : (주)Epp Asset
+- 역할 : 7Km FitBand 안드로이드 앱 전담 개발 및 미밴드 sdk 개발
+- 사용기술 : Android Java, Bluetooth Low Energy, daum map sdk, gps, kakao sdk, retrofit, realm, volley, etc.
+- IDE/Build : Android Studio, Gradle
+- ![Screenshot](images/fitband_01.png)![Screenshot](images/fitband_02.png)![Screenshot](images/fitband_03.png)
+
 ## ActionPainting (액션페인팅)
 유아 교육용 색칠 프로그램
 - 기간 : 2014/3~2014/11
@@ -56,15 +46,6 @@
 - IDE/Build : Visual Studio, Eclipse, XCode
 - [Play Store](https://play.google.com/store/apps/details?id=com.smartnmedia.ActionPainting)
 - [Play Store](https://play.google.com/store/apps/details?id=com.smartnmedia.ActionPainting.BoBo)
-
-## Moca Wallet
-KT 전자지갑 모카월렛 유지보수
-- 기간 : 2013/2~2013/5
-- 소속회사명 : (주)하렉스인포텍
-- 발주처 : (주)KT
-- 역할 : 모카월렛 유지 보수 및 개발
-- 사용기술 : Android Java
-- IDE/Build : Eclipse
 
 ## MocaPay iOS/Android
 전자 결제 어플리케이션
@@ -94,6 +75,15 @@ PC용 POS 프로그램
 - 역할 : 결제 시스템과 연동할 POS 단말기 프로그램 개발 및 유지보수
 - 사용기술 : Delphi, Serial 통신을 통한 프린터 장비 구동
 - IDE/Build, Delphi6, Boland C++, Visual Studio
+
+## Moca Wallet
+KT 전자지갑 모카월렛 유지보수
+- 기간 : 2013/2~2013/5
+- 소속회사명 : (주)하렉스인포텍
+- 발주처 : (주)KT
+- 역할 : 모카월렛 유지 보수 및 개발
+- 사용기술 : Android Java
+- IDE/Build : Eclipse
 
 ## Atlan Android
 아틀란 네비게이션의 안드로이드(휴대폰)버전  
