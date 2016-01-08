@@ -3,7 +3,7 @@
 - email : pparkppark84@gmail.com
 
 # Cocos, Unity
-https://www.dropbox.com/sh/c4ep2sinalfqvmq/AAB50CmkHRTYIkYMmWOI3Ba0a?dl=0
+[드랍박스 공개 소스](https://www.dropbox.com/sh/c4ep2sinalfqvmq/AAB50CmkHRTYIkYMmWOI3Ba0a?dl=0)
 
 # 경력기술서
 
