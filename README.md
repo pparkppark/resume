@@ -1,6 +1,9 @@
 # 연락처
-- tel : +82-010-6852-4254
+- tel : +82-10-6852-4254
 - email : pparkppark84@gmail.com
+
+# Cocos, Unity
+https://www.dropbox.com/sh/c4ep2sinalfqvmq/AAB50CmkHRTYIkYMmWOI3Ba0a?dl=0
 
 # 경력기술서
 
